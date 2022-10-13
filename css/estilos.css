@@ -1,0 +1,47 @@
+/*TIPOGRAFIA*/
+*{
+    font-family: "oswald";
+    src: url(./oswald-tipografia/Oswald-Bold.ttf)
+}
+
+*{margin: 0;
+padding: 0%;} 
+
+ body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/shiny_foam.jpg);
+    background-size: cover;
+background-repeat: no-repeat;}
+    
+
+.main_titulo{
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 12px;}
+
+    .main_parrafo{
+        color: black;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+ 
+
+.titulo{
+    color: black;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline 3px;
+}
+    
+ .subtitulo{ font-size: 38px;
+        font-weight: bold;
+        color: black;}
+
+ .texto_justificado{
+    text-align: justify;
+ }
