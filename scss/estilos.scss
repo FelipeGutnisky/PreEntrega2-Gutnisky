@@ -1,0 +1,36 @@
+@import "./variables";
+
+@each $clave, $valor in $colores {
+    .btn--#{$clave} {
+        color: $valor;
+    }
+ }
+ 
+ body{
+    background-image: url(../img/shiny_foam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_titulo{
+    color: $color-principal ;
+    font-size: $titulos-size;
+    text-transform: uppercase;
+}
+
+h1{
+    color: $color-principal;
+    font-size: $titulos-size;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+@for $i from 1 through 5 {
+    .subtitulo-#{$i} {
+        color: $color-principal;
+        font-size: 10px * $i;
+    }
+}
+
+ 
