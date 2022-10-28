@@ -1,12 +1,3 @@
-.btn--color1 {
-  color: black; }
-
-.btn--color2 {
-  color: #0a3205; }
-
-.btn--color3 {
-  color: #0a5005; }
-
 body {
   background-image: url(../img/shiny_foam.jpg);
   background-repeat: no-repeat;
@@ -43,3 +34,12 @@ h1 {
 .subtitulo-5 {
   color: #0a3205;
   font-size: 50px; }
+
+.btn--color1 {
+  color: black; }
+
+.btn--color2 {
+  color: #0a3205; }
+
+.btn--color3 {
+  color: #0a5005; }

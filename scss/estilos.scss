@@ -1,11 +1,5 @@
 @import "./variables";
 
-@each $clave, $valor in $colores {
-    .btn--#{$clave} {
-        color: $valor;
-    }
- }
- 
  body{
     background-image: url(../img/shiny_foam.jpg);
     background-repeat: no-repeat;
@@ -33,4 +27,8 @@ h1{
     }
 }
 
- 
+@each $clave, $valor in $colores {
+    .btn--#{$clave} {
+        color: $valor;
+    }
+ } 
